@@ -297,3 +297,7 @@ a.card:hover, .card.lift:hover { transform: translateY(-3px); box-shadow: var(--
 .site-foot a { color: var(--deep-muted); text-decoration: none; }
 .site-foot a:hover { color: var(--deep-ink); }
 .site-foot .brand { margin-right: 0; }
+.foot-meta { display: grid; gap: 4px; text-align: right; }
+.site-foot a.credit { color: var(--glow); font-weight: 600; }
+.site-foot a.credit:hover { text-decoration: underline; }
+@media (max-width: 640px) { .foot-meta { text-align: left; } }
